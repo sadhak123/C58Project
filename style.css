@@ -1,0 +1,58 @@
+#home {
+    position: inherit;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+body {
+    background: linear-gradient(#08ECD9 0%, #11EA55 100%);
+    color: white;
+    text-align: center;
+}
+
+.line{
+    height:6px;
+    background: white;
+    width: 300px;
+    margin:8px auto;
+}
+
+#readingimg{
+    height: 150px;
+    width: 185px;
+    border-radius: 50%;
+}
+
+#readinghead{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#readp{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.sections{
+    list-style: none;
+    font-family: cursive;
+    float: left;
+    cursor: pointer;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    background: #12ADC1;
+}
+
+.menu{
+    position: fixed;
+}
+
+.sections:hover{
+    background:orange;
+}
